@@ -4,3 +4,4 @@
 
 - [1. Template Method](1.%20Template%20Method)
 - [2. Strategy](2.%20Strategy)
+- [3. Observer](3.%20Observer)
