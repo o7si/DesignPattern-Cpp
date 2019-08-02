@@ -34,17 +34,19 @@ public:
 
     // 将sort函数延迟到派生类实现
     virtual void sort() = 0;
+
     // 将size函数延迟到派生类实现
     virtual size_t size() = 0;
+
     // 为多态基类声明虚析构函数，保证基类指针能够正确释放资源
     virtual ~Container() = default;
 };
 
-// 模板类，final关键字使得该类不允许被继承
+// 模板类
 template<typename Type>
-class MyContainer final : public Container {
+class MyContainer : public Container {
 public:
-    explicit MyContainer(const Type* arr, int n) : sz(n) {
+    explicit MyContainer(const Type *arr, int n) : sz(n) {
 
         data = new Type[sz];
         // 深拷贝：复制arr中的内容到data
@@ -59,7 +61,7 @@ public:
      */
 
     // 拷贝构造函数
-    MyContainer(const MyContainer& rhs) {
+    MyContainer(const MyContainer &rhs) {
 
         sz = rhs.sz;
         data = new Type[sz];
@@ -70,7 +72,7 @@ public:
     }
 
     // 拷贝赋值运算符
-    MyContainer &operator=(const MyContainer& rhs) {
+    MyContainer &operator=(const MyContainer &rhs) {
 
         // 处理自我赋值
         if (this == &rhs)
@@ -111,22 +113,23 @@ public:
     size_t size() override {
         return sz;
     }
+
 private:
-    Type* data;
+    Type *data;
     size_t sz;
 };
 
 namespace helper {
 
     // 生成具有n个元素的随机数组，每个元素的范围在[rangeL, rangeR]
-    int* generateRandomIntArray(const int sz, const int rangeL, const int rangeR) {
+    int *generateRandomIntArray(const int sz, const int rangeL, const int rangeR) {
 
         // 设置随机数引擎（静态修饰保证短时间内重复调用不会生成相同的序列）
         static std::default_random_engine engine(time(nullptr));
         // 设置随机数分布为[rangeL, rangeR]
         std::uniform_int_distribution<int> distribution(rangeL, rangeR);
 
-        int* arr = new int[sz];
+        int *arr = new int[sz];
         for (int i = 0; i < sz; ++i)
             arr[i] = distribution(engine);
         return arr;
@@ -136,10 +139,10 @@ namespace helper {
 int main() {
 
     const int n = 50000;
-    int* arr = helper::generateRandomIntArray(n, 0, n);
+    int *arr = helper::generateRandomIntArray(n, 0, n);
 
     // 基类指针指向派生类对象（多态）
-    Container* container = new MyContainer<int>(arr, n);
+    Container *container = new MyContainer<int>(arr, n);
     // testSort为Template Method
     container->testSort();
 
