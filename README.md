@@ -6,3 +6,4 @@
 - [2. Strategy](2.%20Strategy)
 - [3. Observer](3.%20Observer)
 - [4. Decorator](4.%20Decorator)
+- [5. Bridge](5.%20Bridge)
