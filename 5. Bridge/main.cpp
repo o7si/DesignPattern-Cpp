@@ -6,16 +6,12 @@ using namespace std;
 
 // 数据库连接抽象基类（稳定部分）
 class ConnectionBase;
-
 // 数据库连接抽象基类（稳定部分）
 class Driver;
-
 // 数据库连接实现类（变化部分）
 class Connection;
-
 // A公司的数据库驱动（变化部分）
 class ADriver;
-
 // B公司的数据库驱动（变换部分）
 class BDriver;
 
