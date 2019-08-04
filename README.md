@@ -7,3 +7,4 @@
 - [3. Observer](3.%20Observer)
 - [4. Decorator](4.%20Decorator)
 - [5. Bridge](5.%20Bridge)
+- [6. Factory Method](6.%20Factory%20Method)
