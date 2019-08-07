@@ -10,3 +10,4 @@
 - [6. Factory Method](6.%20Factory%20Method)
 - [7. Abstract Factory](7.%20Abstract%20Factory)
 - [8. Prototype](8.%20Prototype)
+- [9. Builder](9.%20Builder)
