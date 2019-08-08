@@ -2,13 +2,13 @@
 
 **使用C++11/14编写23种设计模式，代码难免会出现各种问题，请多多指教**
 
-- [1. Template Method](1.%20Template%20Method)
-- [2. Strategy](2.%20Strategy)
-- [3. Observer](3.%20Observer)
-- [4. Decorator](4.%20Decorator)
-- [5. Bridge](5.%20Bridge)
-- [6. Factory Method](6.%20Factory%20Method)
-- [7. Abstract Factory](7.%20Abstract%20Factory)
-- [8. Prototype](8.%20Prototype)
-- [9. Builder](9.%20Builder)
+- [01. Template Method](01.%20Template%20Method)
+- [02. Strategy](02.%20Strategy)
+- [03. Observer](03.%20Observer)
+- [04. Decorator](04.%20Decorator)
+- [05. Bridge](05.%20Bridge)
+- [06. Factory Method](06.%20Factory%20Method)
+- [07. Abstract Factory](07.%20Abstract%20Factory)
+- [08. Prototype](08.%20Prototype)
+- [09. Builder](09.%20Builder)
 - [10. Singleton](10.%20Singleton)
