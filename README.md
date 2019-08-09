@@ -12,3 +12,4 @@
 - [08. Prototype](08.%20Prototype)
 - [09. Builder](09.%20Builder)
 - [10. Singleton](10.%20Singleton)
+- [11. Flyweight](11.%20Flyweight)
