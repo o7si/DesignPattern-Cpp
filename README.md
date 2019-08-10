@@ -1,6 +1,6 @@
 ## DesignPattern-Cpp（不断更新中，争取1~2个月内完成）
 
-**使用C++11/14编写23种设计模式，代码难免会出现各种问题，请多多指教**
+**使用C++11编写23种设计模式，代码难免会出现各种问题，请多多指教**
 
 - [01. Template Method](01.%20Template%20Method)
 - [02. Strategy](02.%20Strategy)
@@ -14,3 +14,4 @@
 - [10. Singleton](10.%20Singleton)
 - [11. Flyweight](11.%20Flyweight)
 - [12. Facade](12.%20Facade)
+- [13. Adapter](13.%20Adapter)
