@@ -15,3 +15,4 @@
 - [11. Flyweight](11.%20Flyweight)
 - [12. Facade](12.%20Facade)
 - [13. Adapter](13.%20Adapter)
+- [14. Proxy](14.%20Proxy)
