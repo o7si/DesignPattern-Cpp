@@ -43,7 +43,7 @@ public:
 
     ~Shard_Ptr() {
 
-        // 如果计数器为零才释放资源
+        // 当计数器为零，即没有对象使用该指针，则释放资源
         if (--*cnt <= 0) {
             delete ptr;
             delete cnt;
