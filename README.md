@@ -17,3 +17,4 @@
 - [13. Adapter](13.%20Adapter)
 - [14. Proxy](14.%20Proxy)
 - [15. Mediator](15.%20Mediator)
+- [16. Composite](16.%20Composite)
