@@ -18,3 +18,4 @@
 - [14. Proxy](14.%20Proxy)
 - [15. Mediator](15.%20Mediator)
 - [16. Composite](16.%20Composite)
+- [17. Iterator](17.%20Iterator)
