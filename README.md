@@ -21,3 +21,4 @@
 - [17. Iterator](17.%20Iterator)
 - [18. Chain of Responsibility](18.%20Chain%20of%20Responsibility)
 - [19. Memento](19.%20Memento)
+- [20. Command](20.%20Command)
