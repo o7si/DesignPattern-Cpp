@@ -23,3 +23,5 @@
 - [19. Memento](19.%20Memento)
 - [20. Command](20.%20Command)
 - [21. Interpreter](21.%20Interpreter)
+- [22. State](22.%20State)
+- [23. Visitor](23.%20Visitor)
